@@ -1,11 +1,27 @@
 @import "compass/reset";
+h1 {
+	font-size: 2em;
+}
 
-h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.17em; }
-h4 { font-size: 1.12em; }
-h5 { font-size: .83em; }
-h6 { font-size: .75em; }
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.17em;
+}
+
+h4 {
+	font-size: 1.12em;
+}
+
+h5 {
+	font-size: .83em;
+}
+
+h6 {
+	font-size: .75em;
+}
 
 body {
 	background-color: #1b926c;
@@ -16,5 +32,24 @@ body {
 	display: none;
 	margin-bottom: 50px;
 	width: 100px;
-	
+}
+
+.pink {
+	color: red;
+}
+
+font-size: .75em;
+
+}
+body {
+	background-color: #1b926c;
+}
+.list {
+	border: 10px solid red;
+	display: none;
+	margin-bottom: 50px;
+	width: 100px;
+}
+.pink {
+	color: red;
 }

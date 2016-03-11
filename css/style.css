@@ -84,8 +84,7 @@ body {
 
 .list {
   border: 10px solid red;
-  display: none;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   width: 100px;
 }
 

@@ -1,5 +1,5 @@
 "use strict";
-Test line
+
 /*function Test() {
 	var other = "otherstring";
 	console.log("Test works!!!!!!!!!");
@@ -166,9 +166,7 @@ var firstNameObject = {
 	newFirstFunction: function (value, index) {
 		return value + " new# " + index;
 	},
-	newFirstMap: function() {
-		return $.map(this.firstName, this.newFirstFunction);
-	}
+	newFirstMap: $.map(this.firstName, this.newFirstFunction)
 };
 /*
 function FirstNameConstructor() {

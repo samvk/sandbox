@@ -168,6 +168,7 @@ var firstNameObject = {
 	},
 	newFirstMap: $.map(this.firstName, this.newFirstFunction)
 };
+
 /*
 function FirstNameConstructor() {
 	//var self = this;

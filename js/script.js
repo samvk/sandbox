@@ -1,28 +1,13 @@
-var ready = true;
+//split v slice v splice
 
-var dan = "before";
+//split is only for strings and returns arrays based off what it's using as the ',' prelacement
+//usually the space, but doesnt have to be
 
-!ready ? dan = "new" : console.log("falseee");
+var sen = "This those and the thing";
 
-console.log(dan);
+var newSen = sen.split("t");
 
-function ttt() {
-	console.log("true");
-}
+console.log(newSen);
 
-function fff() {
-	console.log("false");
-}
+//////////////////////////////
 
-
-var ready2 = true;
-
-var dan2 = "before";
-
-function newReady() {
-	this.test = false;
-}
-
-var billy = new newReady();
-
-billy.test ? console.log("true1111") : console.log("false111");

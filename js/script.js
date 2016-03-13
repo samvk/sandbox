@@ -12,12 +12,20 @@ $("button").click(function () {
 
 
 $("button").on("click.boobs", function () {
-	console.log("yo");
+	//console.log("yo");
 });
 
 $("button").on("click.billy", function () {
-	console.log("billy");
+	//console.log("billy");
 });
 
 //$("button").off("click.billy");
-$("button").trigger("click.billy"); 
+//$("button").trigger("click.billy");
+
+var obj = {
+	one: function(input) {
+		console.log("text: " + input);
+	}
+};
+
+var check = obj.one("hre");

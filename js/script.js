@@ -1,14 +1,20 @@
-/*global $, document, Image, window, setTimeout, setInterval, clearInterval */
+function arraySum(a) {
 
-var one = "1";
-var two = "2";
+	// i will be an array, containing integers, strings and/or arrays like itself.
+	// Sum all the integers you find, anywhere in the nest of arrays.
+	var total;
+	var slot;
 
-console.log(~~one + two);
+	Object.prototype.numCheck = function() {
+		if (this typeof "number") {
+			total += this;
+		}
+	}
 
-var startClock = new Date();
+	for (var i = 0; i <a.length; i++){
+		slot = a[i];
+		slot.numCheck();
+	}
 
-console.log(+startClock);
-
-var tryer = 40;
-
-console.log(tryer >> 4);
+	return total;
+}

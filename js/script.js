@@ -1,7 +1,7 @@
 /*jslint vars: true plusplus: true */
 /*jshint esversion: 6*/
-/*global $, document, Image, window, setTimeout, setInterval, clearInterval*/
-
+/*global $, document, Image, window, setTimeout, setInterval, clearInterval, console*/
+/*
 function pattern(n) {
 	const constN = n;
 
@@ -38,3 +38,59 @@ function pattern(n) {
 }
 
 console.log(pattern(101));
+*/
+
+/*function Animal() {
+	this.kingdom = "animalia";
+}
+
+Animal.prototype.double = function (word) {
+	return this.kingdom + this.kingdom + word;
+} ;
+
+function Dog() {
+	this.legs = 4;
+}
+
+Dog.prototype = new Animal();
+
+var scruffy = new Dog();
+
+console.log(scruffy.legs);
+console.log(scruffy.kingdom);
+console.log(scruffy.double("cheese"));
+*/
+
+/*
+var count = 0;
+class Animal {
+	constructor(input) {
+		this.kingdom = input;
+	}
+	
+	double(word) {
+		return 9;
+	}
+}
+
+class Dog extends Animal {
+	constructor(input) {
+		super(input);
+		this.kingdom = input;
+		this.legs = 4;
+	}
+	
+	double(word) {
+		count++;
+		return this.kingdom + (count < 6 ? this.double() : "end");
+		
+	}
+}
+
+var scruffy = new Dog("inp");
+
+console.log(scruffy.legs);
+console.log(scruffy.kingdom);
+console.log(scruffy.double("cheese"));
+*/
+
